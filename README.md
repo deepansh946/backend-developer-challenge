@@ -1,18 +1,19 @@
-## Backend Developer at Give
+## Backend Developer Task at Give
 
-### Objective
-Create a disbursement report from a list of donations in CSV.
+## Prerequisites
 
-### Tasks
-- The app should allow user to select the base currency and upload a CSV file containing donation data.
-- The app should parse the CSV and validate the format for each row as [Date,Order Id,Nonprofit,Donation Currency,Donation Amount,Fee]
-- The app should convert all donation amounts into the user-selected base currency using any currency exchange API such as https://openexchangerates.org/ or https://exchangeratesapi.io/
-- The app should group the donations according to nonprofit and return a new CSV file which contains aggregated information for each nonprofit. [Nonprofit, Total amount, Total Fee, Number of Donations]
-- A [sample CSV file](sample.csv) is provided in the repository for testing
+Following tools are required to run the project:
 
-### Deliverables
-- Create a fork of this repository
-- Code your solution in a frontend stack of your choice
-- Include instructions on how to set it up and run in the README.md
-- Add your resume and other profile / project links **(Don't include your social profiles. We really don't care unless it's your steam profile.)**
-- Submit a pull request (PR)
+1. Yarn (https://yarnpkg.com/lang/en/docs/install) [Preferred]
+2. Node.js (https://nodejs.org/en/download/)
+
+## Installation
+
+```js
+yarn
+yarn start
+```
+
+## Links
+
+1. [Resume](https://drive.google.com/file/d/17-rh5gE3n2_WsNs-LntmbzZ9CJFo4mY2/view)
